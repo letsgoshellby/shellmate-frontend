@@ -17,9 +17,9 @@ export default function Navbar() {
   const { isAuthenticated, loading } = useAuth()
 
   return (
-    <div className="w-full fixed top-0 left-0 z-50 p-4">
+    <div className="fixed top-0 left-1/2 -translate-x-1/2 z-50 p-4 max-w-7xl w-full">
       <div className="w-full backdrop-blur-md bg-white/50 border border-gray-200 rounded-2xl">
-        <div className="flex h-16 items-center justify-between px-6 max-w-7xl mx-auto w-full">
+        <div className="flex h-16 items-center justify-between px-6 w-full">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold text-gray-900 hover:text-gray-600 transition-colors">
               shellmate
